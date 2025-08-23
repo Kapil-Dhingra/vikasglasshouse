@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>Vikas Glass House & Aluminium Works.</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="css/responsive.css">
+      <!-- fevicon -->
+      <link rel="icon" href="images/fevicon.png" type="image/gif" />
+      <!-- fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Poppins:400,700|Sen:400,700,800&display=swap" rel="stylesheet">
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+      <!-- Tweaks for older IEs-->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+      <style>
+         .google-review-btn {
+  position: fixed;
+  right: 10px;
+  bottom: 20px; /* keeps it above footer */
+  background: white;
+  color: #000582a1;
+  border: 1px solid #000582a1;
+  font-weight: bold;
+  padding: 10px 16px;
+  border-radius: 30px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  animation: bounce 2s infinite;
+  transition: background 0.3s, color 0.3s;
+  z-index: 1000;
+}
+
+.google-review-btn:hover {
+  background: linear-gradient(90deg, transparent, #000582);
+  color: #fff;
+  border: 1px solid white;
+}
+
+.google-icon {
+  width: 20px;
+  height: 20px;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+      </style>
+   </head>
+   <body>
+      <div class="header_section">
+         <div class="container-fluid px-0">
+            <nav class="navbar navbar-expand-lg navbar-light">
+               <a class="navbar-brand"href="index.html"><img src="images/logo3.png"></a>
+            </nav>
+         </div>
+         <!-- banner section start --> 
+         <div class="banner_section layout_padding">
+            <div id="my_slider" class="carousel slide" data-ride="carousel">
+               <div class="carousel-inner">
+                  <div class="carousel-item active bg-dark-transparent" data-bg="images/bg1.jpg">
+                     <div class="container">
+                        <div class="row">
+                           <div class="col-md-12 text-center">
+                              <h1 class="banner_taital pb-0">Vikas Glass House & Aluminium Works</h1>
+                              <!-- <div class="read_bt"><a href="#">Read More</a></div> -->
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="carousel-item bg-dark-transparent" data-bg="images/bg2.jpeg">
+                     <div class="container">
+                        <div class="row">
+                           <div class="col-md-12 text-center">
+                              <h1 class="banner_taital pb-0">Vikas Glass House & Aluminium Works</h1>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="carousel-item bg-dark-transparent" data-bg="images/bg3.jpg">
+                     <div class="container">
+                        <div class="row">
+                           <div class="col-md-12 text-center">
+                              <h1 class="banner_taital pb-0">Vikas Glass House & Aluminium Works</h1>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <a class="carousel-control-prev" href="#my_slider" role="button" data-slide="prev">
+               <i class="fa fa-angle-left"></i>
+               </a>
+               <a class="carousel-control-next" href="#my_slider" role="button" data-slide="next">
+               <i class="fa fa-angle-right"></i>
+               </a>
+            </div>
+         </div>
+         <!-- banner section end -->
+      </div>
+      <!-- header section end -->
+      <!-- domain section start -->
+      <div class="domain_section">
+         <div class="container">
+            <div class="domain_box">
+               <h2 class="text-center pb-3" style="color:#21237a;">-- Dealer --</h2>
+               <div class="domain_rate">
+                  <ul>
+                     <li>
+                        <img src="images/brand1.png" style="width: 150px;height:100px;object-fit: contain;">
+                     </li>
+                     <li>
+                        <img src="images/brand2.png" style="width: 150px;height:100px;object-fit: contain;">
+                     </li>
+                     <li>
+                        <img src="images/brand3.png" style="width: 150px;height:100px;object-fit: contain;">
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- domain section end -->
+       <!-- hosting section start -->
+      <div class="hosting_section layout_padding" id="visiting_card">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <h1 class="hosting_taital">OUR DIGITAL VISITING CARD</h1>
+               </div>
+               <div class="col-md-6">
+                  <div class="hosting_img"><img src="images/visitingCard-removebg-preview.png" style="cursor:pointer;" data-toggle="modal" data-target="#visitingCardModal"></div>
+               </div>
+               <div class="col-md-6">
+                  <p class="hosting_text">Get all our contact details in one click. Our digital visiting card includes our location, WhatsApp, and phone number — all clickable. Just tap to call us, send a WhatsApp message, or open our location in maps.</p>
+                  <div class="click_bt"><a target="_blank" href="images/digitalvisitingcard-HREF.pdf" download="VikasGlassHouseCard.pdf">Download</a></div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- hosting section end -->
+      <!-- about section start -->
+      <div class="about_section layout_padding" id="specializations">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-4">
+                  <div class="about_box">
+                     <div class="icon_1"><img src="images/icon-1.png"></div>
+                     <h3 class="faster_text">Quick Service</h3>
+                     <p class="lorem_text">We respond fast and complete your work without wasting time, so you don’t have to wait long.</p>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="about_box">
+                     <div class="icon_1"><img src="images/icon-2.png"></div>
+                     <h3 class="faster_text">Trusted Quality</h3>
+                     <p class="lorem_text">We use strong materials and skilled hands to give you clean, sharp, and long-lasting results.</p>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="about_box">
+                     <div class="icon_1"><img src="images/icon-3.png"></div>
+                     <h3 class="faster_text">24/7 Support</h3>
+                     <p class="lorem_text">We’re always ready to pick up your call and assist you, no matter the time or day.</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- about section end -->
+      
+      <!-- services section start -->
+      <div class="services_section layout_padding" id="work_projects">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <h1 class="services_taital">Our Work Projects</h1>
+               </div>
+            </div>
+            <div class="services_section_2">
+               <div id="main_slider"class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner" id="carousel-items-parent">
+                     <!-- <div class="carousel-item active">
+                        <div class="row">
+                           <div class="col-md-12">
+                              <h3 class="text-center text-white">Glazing Design Works</h3>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="service_box">
+                                 <div class="services_icon">
+                                    <img src="images/glazing1.webp" class="image_1">
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="service_box">
+                                 <div class="services_icon">
+                                     <img src="images/glazing2.webp" class="image_1">
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="service_box">
+                                 <div class="services_icon">
+                                     <img src="images/glazing3.webp" class="image_1">
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="carousel-item">
+                        <div class="row">
+                           <div class="col-md-12">
+                              <h3 class="text-center text-white">Glazing Design Works</h3>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="service_box">
+                                 <div class="services_icon">
+                                    <img src="images/glazing4.webp" class="image_1">
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="service_box">
+                                 <div class="services_icon">
+                                     <img src="images/glazing5.webp" class="image_1">
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="service_box">
+                                 <div class="services_icon">
+                                     <img src="images/glazing6.webp" class="image_1">
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="carousel-item">
+                        <div class="row">
+                           <div class="col-md-12">
+                              <h3 class="text-center text-white">Design Works</h3>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="service_box">
+                                 <div class="services_icon">
+                                    <img src="images/designer1.webp" class="image_1">
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="service_box">
+                                 <div class="services_icon">
+                                    <img src="images/designer2.webp" class="image_1">
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="service_box">
+                                 <div class="services_icon">
+                                    <img src="images/designer3.webp" class="image_1">
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="carousel-item">
+                        <div class="row">
+                           <div class="col-md-12">
+                              <h3 class="text-center text-white">Design Works</h3>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="service_box">
+                                 <div class="services_icon">
+                                    <img src="images/designer4.webp" class="image_1">
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="service_box">
+                                 <div class="services_icon">
+                                    <img src="images/designer5.webp" class="image_1">
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="service_box">
+                                 <div class="services_icon">
+                                    <img src="images/designer6.webp" class="image_1">
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="carousel-item">
+                        <div class="row">
+                           <div class="col-md-12">
+                              <h3 class="text-center text-white">Design Works</h3>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="service_box">
+                                 <div class="services_icon">
+                                    <img src="images/designer7.webp" class="image_1">
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="service_box">
+                                 <div class="services_icon">
+                                    <img src="images/designer8.webp" class="image_1">
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="service_box">
+                                 <div class="services_icon">
+                                    <img src="images/designer9.webp" class="image_1">
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="carousel-item">
+                        <div class="row">
+                           <div class="col-md-12">
+                              <h3 class="text-center text-white">Steel Works</h3>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="service_box">
+                                 <div class="services_icon">
+                                    <img src="images/steel1.webp" class="image_1">
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="service_box">
+                                 <div class="services_icon">
+                                    <img src="images/steel2.webp" class="image_1">
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="service_box">
+                                 <div class="services_icon">
+                                    <img src="images/steel3.webp" class="image_1">
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="carousel-item">
+                        <div class="row">
+                           <div class="col-md-12">
+                              <h3 class="text-center text-white">Steel Works</h3>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="service_box">
+                                 <div class="services_icon">
+                                    <img src="images/steel4.webp" class="image_1">
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="service_box">
+                                 <div class="services_icon">
+                                    <img src="images/steel5.webp" class="image_1">
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="service_box">
+                                 <div class="services_icon">
+                                    <img src="images/steel6.webp" class="image_1">
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="carousel-item">
+                        <div class="row">
+                           <div class="col-md-12">
+                              <h3 class="text-center text-white">Toughened Glass Works</h3>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="service_box">
+                                 <div class="services_icon">
+                                    <img src="images/toughened1.webp" class="image_1">
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="service_box">
+                                 <div class="services_icon">
+                                    <img src="images/toughened2.webp" class="image_1">
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="service_box">
+                                 <div class="services_icon">
+                                    <img src="images/toughened3.webp" class="image_1">
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="carousel-item">
+                        <div class="row">
+                           <div class="col-md-12">
+                              <h3 class="text-center text-white">Toughened Glass Works</h3>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="service_box">
+                                 <div class="services_icon">
+                                    <img src="images/toughened4.webp" class="image_1">
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="service_box">
+                                 <div class="services_icon">
+                                    <img src="images/toughened5.webp" class="image_1">
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="service_box">
+                                 <div class="services_icon">
+                                    <img src="images/toughened6.webp" class="image_1">
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="carousel-item">
+                        <div class="row">
+                           <div class="col-md-12">
+                              <h3 class="text-center text-white">Toughened Glass Works</h3>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="service_box">
+                                 <div class="services_icon">
+                                    <img src="images/toughened7.webp" class="image_1">
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="service_box">
+                                 <div class="services_icon">
+                                    <img src="images/toughened8.webp" class="image_1">
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="service_box">
+                                 <div class="services_icon">
+                                    <img src="images/toughened9.webp" class="image_1">
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="carousel-item">
+                        <div class="row">
+                           <div class="col-md-12">
+                              <h3 class="text-center text-white">Toughened Glass Works</h3>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="service_box">
+                                 <div class="services_icon">
+                                    <img src="images/toughened10.webp" class="image_1">
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="service_box">
+                                 <div class="services_icon">
+                                    <img src="images/toughened11.webp" class="image_1">
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="service_box">
+                                 <div class="services_icon">
+                                    <img src="images/toughened12.webp" class="image_1">
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="carousel-item">
+                        <div class="row">
+                           <div class="col-md-12">
+                              <h3 class="text-center text-white">Mirror Designs</h3>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="service_box">
+                                 <div class="services_icon">
+                                    <img src="images/mirror1.webp" class="image_1">
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="service_box">
+                                 <div class="services_icon">
+                                    <img src="images/mirror2.webp" class="image_1">
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="service_box">
+                                 <div class="services_icon">
+                                    <img src="images/mirror3.webp" class="image_1">
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="carousel-item">
+                        <div class="row">
+                           <div class="col-md-12">
+                              <h3 class="text-center text-white">Mirror Designs</h3>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="service_box">
+                                 <div class="services_icon">
+                                    <img src="images/mirror4.webp" class="image_1">
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="service_box">
+                                 <div class="services_icon">
+                                    <img src="images/mirror5.webp" class="image_1">
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="service_box">
+                                 <div class="services_icon">
+                                    <img src="images/mirror6.webp" class="image_1">
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="carousel-item">
+                        <div class="row">
+                           <div class="col-md-12">
+                              <h3 class="text-center text-white">Mirror Designs</h3>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="service_box">
+                                 <div class="services_icon">
+                                    <img src="images/mirror7.webp" class="image_1">
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="service_box">
+                                 <div class="services_icon">
+                                    <img src="images/mirror8.webp" class="image_1">
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="service_box">
+                                 <div class="services_icon">
+                                    <img src="images/mirror9.webp" class="image_1">
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div> -->
+                  </div>
+                  <div class="mt-3 text-center">
+                     <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
+                        <i class="fa fa-angle-left"></i>
+                     </a>
+                     <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next">
+                        <i class="fa fa-angle-right"></i>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   
+      
+      <!-- services section end -->
+      <!-- footer section start -->
+      <div class="footer_section layout_padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-4">
+                  <h3 class="footer_text">Sections</h3>
+                  <div class="footer_menu">
+                     <ul>
+                        <li><a href="#visiting_card">Digital Visiting Card</a></li>
+                        <li><a href="#specializations">Specializations</a></li>
+                        <li><a href="#work_projects">Our Work Projects</a></li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-sm-4">
+                  <!-- <div class="footer_main">
+                     <h3 class="footer_text">Find Us</h3>
+                     <div class="social_icon">
+                        <ul>
+                           <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                           <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                           <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        </ul>
+                     </div>
+                  </div> -->
+                  <h3 class="footer_text">Contact</h3>
+                  <div class="location_text">
+                     <ul>
+                        <li>
+                           <a href="tel:+917983047287"><span class="padding_left_10"><i class="fa fa-phone" aria-hidden="true"></i></span>(+91) 7983047287</a>
+                        </li>
+                        <li>
+                           <a href="https://wa.me/919760982622"><span class="padding_left_10"><i class="fa fa-phone" aria-hidden="true"></i></span>(+91) 9760982622</a>
+                        </li>
+                        <li>
+                           <a href="mailto:vikasglasshouse0@gmail.com">
+                           <span class="padding_left_10"><i class="fa fa-envelope" aria-hidden="true"></i></span>vikasglasshouse0@gmail.com
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-sm-4">
+                  <h3 class="footer_text">Address</h3>
+                  <div class="location_text">
+                     <ul>
+                        <li>
+                           <a href="https://maps.app.goo.gl/b3XMieRNjupWHvfQ6" target="_blank">
+                           <span class="padding_left_10"><i class="fa fa-map-marker" aria-hidden="true"></i></span>Shop No. 4, Pushpanjali Market, Near Vishal Mega Mart, Kargil, Sikandra, Bodla Road, Agra (U.P).</a>
+                        </li>
+                        <!-- <li>
+                           <a href="#">
+                           <span class="padding_left_10"><i class="fa fa-phone" aria-hidden="true"></i></span>(+91) 9760982622<br>(+91) 7983047287
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#">
+                           <span class="padding_left_10"><i class="fa fa-envelope" aria-hidden="true"></i></span>vikasglasshouse0@gmail.com
+                           </a>
+                        </li> -->
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- footer section end -->
+      <!-- copyright section start -->
+       <a href="https://www.google.com/search?q=vikas+glass+house+agra#lrd=0x39747790cffffff9:0x70edf9eef5702969,1,,,," 
+            target="_blank" 
+            class="google-review-btn">
+            <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_"G"_logo.svg/768px-Google_"G"_logo.svg.png' alt="Google" class="google-icon">
+            Write a review
+         </a>
+      <div class="copyright_section">
+         <div class="container">
+            <p class="copyright_text">&copy; <span id="dynamic_year"></span> Vikas Glass House & Aluminium Works | www.vikasglasshouse.com. All rights reserved.</p>
+         </div>
+      </div>
+
+
+
+
+
+      <div class="modal fade" id="visitingCardModal" tabindex="-1" role="dialog" aria-labelledby="visitingCardLabel" aria-hidden="true">
+         <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content shadow-lg">
+               <div class="modal-header bg-primary text-white p-2">
+                  <h4 class="modal-title text-white" id="visitingCardLabel">Vikas Glass House & Aluminium works <br>Best- Glass Shop In Agra</h4>
+                  <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close"><i class="fa fa-times-circle text-white"></i></button>
+               </div>
+               <div class="modal-body text-center">
+
+                  <!-- Google Map -->
+                  <div class="mb-2">
+                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3548.5475263269036!2d77.953869!3d27.201954499999992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39747790cffffff9%3A0x70edf9eef5702969!2sVikas%20Glass%20House%20%26%20Aluminium%20work%20-%20Best-%20Glass%20Shop%20In%20Agra!5e0!3m2!1sen!2sin!4v1755961849626!5m2!1sen!2sin" 
+                     width="100%" height="200" frameborder="0" style="border:0; border-radius: 10px;" allowfullscreen referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </div>
+
+                  <!-- Action Buttons -->
+                  <div class="d-flex justify-content-around flex-wrap">
+                     <a href="tel:+917983047287" class="btn btn-outline-primary rounded-pill px-3 mb-2">
+                        <i class="fa fa-phone"></i> <!--Call Now <br>-->7983047287
+                     </a>
+                     <a href="https://wa.me/919760982622" target="_blank" class="btn btn-outline-success rounded-pill px-3 mb-2">
+                        <i class="fa fa-whatsapp"></i> <!--WhatsApp <br>-->9760982622
+                     </a>
+                     <!-- <a href="https://maps.app.goo.gl/b3XMieRNjupWHvfQ6" target="_blank" class="btn btn-outline-danger rounded-pill px-3 mb-2">
+                        <i class="fa fa-map-marker"></i> Location
+                     </a> -->
+                  </div>
+
+               </div>
+               <div class="modal-footer justify-content-center p-2">
+                  <a target="_blank" href="images/digitalvisitingcard-HREF.pdf" download="VikasGlassHouseCard.pdf" class="btn btn-primary"><i class="fa fa-download"></i> Download our digital visiting card</a>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      
+      <!-- copyright section end -->
+      <!-- Javascript files-->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+      <script src="js/plugin.js"></script>
+      <!-- sidebar -->
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="js/custom.js"></script>
+
+      <script>
+         $('#my_slider').on('slide.bs.carousel', function (e) {
+            var nextSlide = $(e.relatedTarget); // The upcoming active slide
+            var newBg = nextSlide.data('bg');
+            $('.header_section').css('background-image', 'url(' + newBg + ')');
+         });
+
+         // Set initial background
+         $(document).ready(function() {
+            var initialBg = $('.carousel-item.active').data('bg');
+            $('.header_section').css('background-image', 'url(' + initialBg + ')');
+
+            $('#dynamic_year').html(new Date().getFullYear());
+         });
+
+         $('body').on('click', '.image_1', function () {
+            window.open("https://drive.google.com/file/d/"+$(this).data('src')+"/view", '_blank');
+         });
+      
+         const API_KEY   = "AIzaSyAghOIw7olf423WPJe0Twtyjn-LGr1kshA";
+         const PARENT_ID = "1Jg--vOYgN8b_-oT0bwQZa7VM1peYHNQ0";
+
+         // Reusable fetcher
+         async function listFiles(query, pageSize = 3, pageToken = "") {
+            let url = `https://www.googleapis.com/drive/v3/files?q=${encodeURIComponent(query)}&fields=nextPageToken,files(id,name,mimeType,parents)&pageSize=${pageSize}&key=${API_KEY}`;
+            if (pageToken) url += `&pageToken=${pageToken}`;
+            const res = await fetch(url);
+            const data = await res.json();
+            return data;
+         }
+
+         async function loadCarousel() {
+            const parent = document.getElementById("carousel-items-parent");
+
+            // 1. get all subfolders
+            const foldersRes = await listFiles(`'${PARENT_ID}' in parents and mimeType='application/vnd.google-apps.folder' and trashed=false`, 100);
+            const folders = foldersRes.files;
+            let firstSlide = true;
+
+            for (const folder of folders) {
+               let pageToken = "";
+               do {
+                  // 2. get only 3 images at a time
+                  const imagesRes = await listFiles(`'${folder.id}' in parents and mimeType contains 'image/' and trashed=false`, 3, pageToken);
+                  const images = imagesRes.files;
+                  pageToken = imagesRes.nextPageToken;
+
+                  if (images.length > 0) {
+                     // Create carousel-item
+                     const slide = document.createElement("div");
+                     slide.className = "carousel-item" + (firstSlide ? " active" : "");
+                     firstSlide = false;
+
+                     // Build slide content
+                     let row = `
+                        <div class="row">
+                           <div class="col-md-12">
+                              <h3 class="text-center text-white">${folder.name}</h3>
+                           </div>
+                     `;
+
+                     for (const img of images) {
+                        row += `
+                           <div class="col-md-4">
+                              <div class="service_box">
+                                 <div class="services_icon">
+                                    <img src='https://drive.google.com/thumbnail?id=${img.id}' alt="${img.name}" class="image_1" data-src="${img.id}">
+                                 </div>
+                              </div>
+                           </div>
+                        `;
+                     }
+
+                     row += "</div>";
+                     slide.innerHTML = row;
+                     parent.appendChild(slide);
+                  }
+               } while (pageToken); // keep loading next 3 until folder ends
+            }
+         }
+
+         loadCarousel();
+      </script>
+
+   </body>
+
+
+</html>
